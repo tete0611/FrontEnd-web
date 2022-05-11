@@ -1,0 +1,211 @@
+:root {
+  --font-family: "roboto";
+}
+
+.App {
+  /* text-align: center; */
+}
+body {
+  font-family: 'nanumsquare';
+}
+.app_header{
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+i {
+  color: rgb(66, 228, 101);
+  padding: 0px 10px 0px 0px;
+}
+.logo {
+  font-size: 32px;
+  color: white;
+}
+.logo:hover{
+  font: bold;
+}
+.menu{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.menu li {
+  padding: 8px 12px;
+}
+.menu li:hover {
+  background-color: tomato;
+  border-radius: 4px;
+}
+button:hover{
+  background: tomato;
+  border-radius: 4px;
+}
+.search_button {
+  background: none;
+  font-size: 24px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.search {
+  color: white;
+  display: flex;
+}
+.banner_box {
+  position: absolute;
+  width: 1200px;
+  height: 344px;
+  left: 360px;
+  top: 120px;
+
+  background: rgb(192, 255, 236);
+}
+.banner_box > .banner_title {
+  position: absolute;
+  width: 380px;
+  height: 96px;
+  left: 120px;
+  top: 108px;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 118.19%;
+
+  color: #323232; 
+}
+.공동구매박스 {
+  display: flex;
+  position: absolute;
+  width: 1200px;
+  height: 1200px;
+  left: 360px;
+  top: 600px;
+  background: rgb(192, 255, 236);
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  /* align-content: space-between; */
+}
+.item {
+  width: 300;
+  height: 300;
+}
+.item1 { background: #ef9a9a;}
+.item2 { background: #f48fb1;}
+.item3 { background: #ce93d8;}
+.item4 { background: #b39ddb;}
+.item5 { background: #90caf9;}
+.item6 { background: #a5d6a7;}
+.item7 { background: #e6ee9c;}
+.item8 { background: #fff59d;}
+.item9 { background: #ffcc80;}
+.item10 { background: #ffab91;}
+.item11 { background: #787878;}
+.item12 { background: #5a5a5a;}
+.item13 { background: #464646;}
+.item14 { background: #282828;}
+.item15 { background: #000000;}
+.item16 { background: navy;}
+
+.footer-container {
+  background-color: #242424;
+  width: 1920px;
+  height: 317px;
+  left: 0px;
+  position: absolute;
+  top: 2201px;
+}
+.개인정보처리방침 {
+  position: absolute;
+  width: 128px;
+  height: 19px;
+  left: 360px;
+  top: 127px;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #E1E1E1;
+}
+.이용약관 {
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 538px;
+  top: 127px;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #E1E1E1;
+}
+.footer-container > .로고박스 {
+  position: absolute;
+  width: 200px;
+  height: 42px;
+  left: 410px;
+  top: 61px;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #00C7AE;
+}
+.사업자정보_1 {
+  position: absolute;
+  width: 596px;
+  height: 32px;
+  left: 360px;
+  top: 165px;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #BBBBBB;
+  opacity: 0.62;
+}
+.사업자정보_2 {
+  position: absolute;
+  width: 667px;
+  height: 48px;
+  left: 360px;
+  top: 209px;
+
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #BBBBBB;
+  opacity: 0.62;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
